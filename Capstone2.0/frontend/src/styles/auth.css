@@ -1,0 +1,67 @@
+/* src/pages/Auth.css */
+.login-container, .register-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.login-container h2, .register-container h2 {
+    text-align: center;
+}
+
+.login-container form div, .register-container form div {
+    margin-bottom: 15px;
+}
+
+.login-container label, .register-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input, .register-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.login-container .error, .register-container .error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.login-container button, .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover, .register-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the login link */
+.register-container a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+}
+
+.register-container a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+/* Style for the register link */
+.login-container a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
